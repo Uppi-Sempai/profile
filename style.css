@@ -1,0 +1,108 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+
+
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+  format('ttf');
+}
+
+body{
+  background-color:  hsl(0, 0%, 8%);
+}
+
+.background{/*background color setting */
+  background-color: hsl(0, 0%, 12%);
+  width:91.66%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:10px;
+}
+
+
+img{ /*profile photo setting */
+  width: 28%;
+  border-radius: 50%;
+  margin: auto;
+  display:block;
+  padding:10%;
+}
+
+h1{/*name potion setting*/
+  color:hsl(0, 0%, 100%) ;
+  font-family: Inter;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+h2{ /*location infomation*/
+  color:hsl(75, 94%, 57%) ;
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+h3{ /*brief description of myself*/ 
+  color: hsl(0, 0%, 100%) ;
+  font-family: Inter;
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+
+a{ /*link setting*/
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  }
+  
+
+.button{/*Button setting*/
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  background-color:hsl(0, 0%, 20%);
+  width:80%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5%;
+  border-radius:10px;
+
+}
+
+.button:hover {
+  background-color:hsl(75, 94%, 57%);
+
+  }
+
+a:hover{
+  color:hsl(0, 0%, 8%);
+
+}
+
+
+
+/* Mobile screen setting ends here ↑*/
+
+
+
+
+@media screen and (min-width:376px) 
+{
+.background{
+width:30%;
+
+}
+
+}
